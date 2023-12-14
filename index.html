@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJuanda | Cheatsheet</title>
+    <link href="./styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div  class="profilepic">
+            <div>
+                <img src="./styles/media/perfil.jpeg" alt="Foto de perfil">
+            </div>
+            <div>
+                <p id="username">By: @DevJuanda</p>
+            </div>
+        </div>
+        <div class="siteTitle">
+            <h1>CHEATSHEET</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a class="glowText" href="#">Home</a></li>
+                <li><a class="glowText" href="#">Cheat Codes</a></li>
+                <li><a class="glowText" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="banner">
+            <div class="titles">
+                <h1>Positioning of elements on a web page.</h1>
+                <h2>Properties & Values</h2>
+            </div>
+        </div>
+            <div class="tableContainer">
+                <table class="contentTable">
+                    <thead>
+                        <tr>
+                            <th>
+                                Property
+                            </th>
+                            <th>
+                                Function
+                            </th>
+                            <th>
+                                Value
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="5">
+                                Position
+                            </th>
+                            <td rowspan="5">
+                                The position property allows you to specify the position of an element.
+                            </td>
+                            <th class="middleValue">
+                                Static
+                            </th>
+                            <td>
+                                This is the default position of any element in CSS and is not affected by Top, bottom, right or left.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="middleValue">
+                                Relative
+                            </th>
+                            <td>
+                                When set to relative, an element's position is relative to its default position on the page.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="middleValue">
+                                Absolute
+                            </th>
+                            <td>
+                                When set to absolute, an element's position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="middleValue">
+                                Fixed
+                            </th>
+                            <td>
+                                When set to fixed, an element's position can be pinned to any part of the web page. The element will remain in view no matter what.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="middleValue">
+                                Sticky
+                            </th>
+                            <td>
+                                When set to sticky, an element can stick to a defined offset position when the user scrolls its parent container.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Z-index
+                            </th>
+                            <td colspan="3">
+                                The z-index of an element specifies how far back or how far forward an element appears on the page when it overlaps other elements.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">
+                                Display
+                            </th>
+                            <td rowspan="3">
+                                The display property allows you to control how an element flows vertically and horizontally in a document.
+                            </td>
+                            <th class="middleValue">
+                                Inline
+                            </th>
+                            <td>
+                                inline elements take up as little space as possible, and they cannot have manually adjusted width or height.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="middleValue">
+                                Block
+                            </th>
+                            <td>
+                                block elements take up the width of their container and can have manually adjusted heights.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="middleValue">
+                                Inline-Block
+                            </th>
+                            <td>
+                                inline-block elements can have set width and height, but they can also appear next to each other and do not take up their entire container width.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Float
+                            </th>
+                            <td colspan="3">
+                                The float property can move elements as far left or as far right as possible on a web page.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Clear
+                            </th>
+                            <td colspan="3">
+                                You can clear an element's left or right side (or both) using the clear property.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </main>
+    <footer>
+        <p>Contact: @eljuandev 
+        <br>
+        <span class="correo">juanda@esencial.club</span><br>&copy; All rights reserved</p>
+    </footer>
+</body>
+</html>
